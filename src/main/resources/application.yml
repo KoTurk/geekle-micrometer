@@ -1,0 +1,15 @@
+
+management.metrics.export:
+
+  prometheus.enabled: true
+#  atlas.enabled: false
+#  datadog.enabled: false
+#  ganglia.enabled: false
+#  graphite.enabled: false
+#  influx.enabled: false
+#  jmx.enabled: false
+#  statsd.enabled: false
+#  newrelic.enabled: false
+#  signalfx.enabled: false
+
+management.endpoints.web.exposure.include: '*'

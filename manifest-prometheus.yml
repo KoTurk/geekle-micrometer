@@ -1,0 +1,9 @@
+
+---
+applications:
+  - name: prometheus
+    instances: 1
+    #buildpack: https://github.com/cloudfoundry/binary-buildpack.git
+    buildpack: binary_buildpack
+    command: ./<your_prometheus_directory>/prometheus --config.file=prometheus.yml --web.listen-address=:8080 --web.enable-admin-api
+    memory: 1024M

@@ -1,0 +1,6 @@
+applications:
+  - name: grafana
+    instances: 1
+    buildpack: binary_buildpack
+    command: ./<your_grafana_directory>/bin/grafana-server web
+    memory: 64M
